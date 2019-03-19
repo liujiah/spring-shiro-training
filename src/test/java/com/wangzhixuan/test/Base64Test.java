@@ -15,7 +15,7 @@ public class Base64Test {
         String keyStr = "如梦技术";
         
         byte[] keys = keyStr.getBytes(Charsets.UTF_8);
-        
+
         System.out.println(Base64Utils.encodeToString(Arrays.copyOf(keys, 16)));
     }
 
